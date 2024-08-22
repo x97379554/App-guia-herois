@@ -4,4 +4,10 @@
     <color name="golden_yellow">#FFD93D</color>
     <color name="orange">#FF8400</color>
     <color name="dark_brown">#4F200D</color>
+
+
+    <color name="azul_escuro">#001F3F</color>
+    <color name="azul_medio">#083358</color>
+    <color name="azul_claro">#0D63A5</color>
+    <color name="amarelo">#FFD717</color>
 </resources>

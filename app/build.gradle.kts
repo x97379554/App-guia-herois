@@ -39,6 +39,7 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation (libs.picasso)
     testImplementation(libs.junit)
+    implementation(libs.material.v190)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }

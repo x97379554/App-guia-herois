@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EllipseImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30%</item>
+        <item name="strokeColor">@color/amarelo</item>
+        <item name="strokeWidth">3dp</item>
+    </style>
+</resources>

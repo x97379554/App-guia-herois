@@ -3,15 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/orange"
+    android:background="@color/azul_claro"
     android:layout_height="wrap_content">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/perfil_H"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:padding="10dp"
+        android:layout_height="100dp"
+        android:contentDescription="TODO"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/borda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        style="@style/EllipseImageView"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -21,7 +26,7 @@
         android:textColor="@color/cardview_light_background"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:text="TextView"
         android:textSize="25sp"
         android:textStyle="bold"

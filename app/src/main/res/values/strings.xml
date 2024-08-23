@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AsassGuiaHeros</string>
+    <string name="Descreção_da_imagemP2">
+        Imagens de perfil do herói segundo a atividade
+
+    </string>
+    <string name="nome_Do_H_P2">Nome do herói segundo a atividade</string>
 </resources>

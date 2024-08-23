@@ -4,11 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@color/azul_claro"
+
     android:layout_height="wrap_content">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/perfil_H"
         android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:foregroundGravity="center"
         android:padding="10dp"
         android:layout_height="100dp"
         android:contentDescription="TODO"
@@ -46,5 +49,16 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/nome_H"
         app:layout_constraintTop_toBottomOf="@+id/nome_H" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/habilidade_H"
+        app:srcCompat="@drawable/borda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
